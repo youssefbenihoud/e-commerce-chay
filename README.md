@@ -4,7 +4,7 @@ This is a full-stack e-commerce website built with the MERN stack (MongoDB, Expr
 
 ## Live Demo
 
-https://e-com.ybenihoud.com
+
 
 ## Features
 
@@ -68,7 +68,7 @@ This project is a monorepo with the following structure:
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/e-commerce-mern.git
+    git clone https://github.com/chay-hm/Ecommerce.git
     cd e-commerce-mern
     ```
 

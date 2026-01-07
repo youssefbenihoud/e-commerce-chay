@@ -1,0 +1,24 @@
+meta {
+  name: Login
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{host}}/api/user/login
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "email":"john@email.de",
+    "password":"123456"
+  }
+}
+
+vars:post-response {
+  userToken: res.body.token
+  userId: res.body.user._id
+  userName: res.body.user.name
+}
